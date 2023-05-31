@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "deap-learning-exploration"
+  site-url: "https://luxiform.github.io/deap_learning_exploration"
+  description: "trying out deep learning tools"
+  repo-branch: main
+  repo-url: "https://github.com/luxiform/deap_learning_exploration"
