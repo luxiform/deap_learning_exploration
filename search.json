@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "deck.html",
+    "href": "deck.html",
+    "title": "core",
+    "section": "",
+    "text": "source\n\nfoo\n\n foo ()"
+  },
+  {
+    "objectID": "cards.html",
+    "href": "cards.html",
+    "title": "card – a basic playing card",
+    "section": "",
+    "text": "ranks\n\n[None, 'A', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K']\n\n\n\nsource\n\nCard\n\n Card (suit, rank)\n\nmore documentation with emphasis\n\n\n\n\nDetails\n\n\n\n\nsuit\nan index into ‘suite’\n\n\nrank\n\n\n\n\n\nc = Card(suit=1, rank=3)\n\n\ntest.test_eq??\n\n\nSignature: test.test_eq(a, b)\nSource:   \ndef test_eq(a,b):\n    \"`test` that `a==b`\"\n    test(a,b,equals, cname='==')\nFile:      c:\\users\\my pc\\appdata\\local\\programs\\python\\python311\\lib\\site-packages\\fastcore\\test.py\nType:      function\n\n\n\n\ntest.test_eq(Card(suit=1,rank=3), Card(suit=1,rank=3))\ntest.test_ne(Card(suit=2,rank=3), Card(suit=1,rank=3))\ntest.test_ne(Card(suit=1,rank=2), Card(suit=1,rank=3))\n\n\nprint(c)\n\nrank: 3, suite: diamond\n\n\nthis is documentation\n\nshowdoc.show_doc(Card)\n\n\nsource\n\nCard\n\n Card (suit, rank)\n\nmore documentation with emphasis\n\n\n\n\nDetails\n\n\n\n\nsuit\nan index into ‘suite’\n\n\nrank\n\n\n\n\n\n\n\n\n#%debug\n\n\nassert Card(suit=1,rank=3)&lt;Card(suit=2,rank=3)\nassert Card(suit=1,rank=3)&lt;Card(suit=2,rank=2)\nassert Card(suit=3,rank=1)&gt;Card(suit=2,rank=2)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "deap_learning_exploration",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation."
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "deap_learning_exploration",
+    "section": "Install",
+    "text": "Install\npip install deap_learning_exploration"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "deap_learning_exploration",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples: A package explaination for the whole package\n\n1+1\n\n2"
+  }
+]
